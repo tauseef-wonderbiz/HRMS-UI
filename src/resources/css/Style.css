@@ -1,0 +1,414 @@
+
+
+.clearButton {
+    margin-left: 11px;
+}
+
+.labelTitle {
+    margin-top: 7px;
+    white-space: nowrap;
+}
+
+.redCss {
+    color: red;
+}
+
+.familyName,
+.productName {
+    white-space: nowrap;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.tdName,
+.familyName,
+.productName,
+.categoryName,
+.firstName,
+.sesaId,
+.emailId,
+.contactNo,
+.location,
+.userName {
+    text-align: left;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.whitespace {
+    white-space: nowrap;
+}
+
+.table-light {
+    white-space: nowrap;
+}
+
+.coacheeName,
+.coacheeManagerName,
+.name {
+    text-align: left;
+    padding-left: 9px;
+}
+
+.knowledgeGaptoAddress,
+.coachingGoal {
+    width: 281px;
+    text-align: left;
+    padding-left: 9px;
+}
+
+.validSESA {
+    font-size: 13px;
+    color: darkgreen;
+    padding-left: 6px;
+    margin-top: 4px;
+}
+
+.norecords {
+    text-align: center;
+    color: orange;
+}
+
+.invalidSESA {
+    font-size: 13px;
+    color: red;
+    padding-left: 6px;
+    margin-top: 4px;
+}
+
+.categoryName {
+    width: 683px;
+}
+
+.w5,
+.familyId,
+.categoryId,
+.productId,
+.coachId,
+.coacheeId {
+    width: 5%;
+}
+
+.srNo {
+    width: 5%;
+}
+
+.w10,
+.status,
+.action,
+.isActive,
+.CoacheeRequestId,
+.coacheeRequestId {
+    width: 10%;
+}
+
+.marginTop {
+    margin-top: -33px;
+    margin-bottom: 10px;
+}
+
+.marginTop1{
+    margin-top: -65px;
+    margin-bottom: 10px;
+
+}
+
+.accordianHeaderItemsMarginRight {
+    margin-right: 15px;
+}
+
+.headerColor {
+    color: #22506A;
+}
+
+.paddingBtoom {
+    padding-bottom: 15px;
+}
+
+.marginBtoomBeforeSession {
+    margin-bottom: 20px;
+}
+
+.paddingTop {
+    padding-top: 10px !important;
+}
+
+/*.table-responsive {
+    margin-top: -26px;
+}*/
+
+.floatRight {
+    float: right;
+}
+
+/*.p-2 {
+    margin-top: -14px;
+}*/
+
+.btnBlueOCS {
+    width: 111px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1.32857143;
+    color: #fff;
+    background-color: #22506A;
+    /* border-color: #4cae4c; */
+    border-radius: 0%;
+}
+
+.btnOrangeOCS {
+    border-radius: 0%;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1.32857143;
+    color: #fff;
+    background-color: orangered;
+    border-color: #fff;
+}
+
+.btnSearch {
+    width: 111px;
+    font-size: 14px;
+    line-height: 1.32857143;
+    color: #fff;
+    background-color: #321fdb;
+    /* border-color: #4cae4c; */
+    border-radius: 0%;
+}
+
+.btnGreenOCS {
+    width: 111px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1.32857143;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-radius: 0%;
+}
+
+.vl{
+
+    margin: 1rem 0;
+    border-left: 2px inset;
+    height: 98%;
+    /* margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25; */
+}
+
+.seColorGreen {
+    color: #5cb85c;
+    /* background-color: #5cb85c; */
+}
+
+.sucessfulMsg {
+    text-align: center;
+    padding-bottom: 9px;
+    color: green;
+}
+
+.errorMsg {
+    text-align: center;
+    padding-bottom: 9px;
+    color: Red;
+}
+
+.textalignCenter {
+    text-align: center;
+}
+
+.tdchechbox {
+    text-align: center;
+    padding-left: 12px;
+}
+
+/*input.p-2.font-lg.border.border-block {
+    display: none;
+}*/
+
+button.border.rounded.p-1 {
+    height: 34px;
+}
+
+.gap-2 select {
+    height: 34px;
+}
+
+input.border.p-1.rounded.w-16 {
+    text-align: center;
+    width: 83px;
+    margin-left: 13px;
+}
+
+.categoryTextbox {
+    margin-left: 10px;
+}
+
+.rondedzero {
+    border-radius: 0;
+}
+
+/*.continerLeft {
+    margin-left: -24px;
+    width: 101%;
+}*/
+
+.assignCoach > button {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #5cb85c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.assignCoach {
+    width: 14%;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    text-align: left !important;
+}
+
+.clrMaroon,
+.btnMaroon {
+    color: maroon !important;
+}
+
+.startDate,
+.endDate,
+.requestDate,
+.status {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-outline-primary {
+        margin-top: 14px;
+    }
+
+    .btnImport {
+        margin-top: 14px;
+    }
+
+    .labelTitle {
+        margin-top: 7px;
+        white-space: nowrap;
+        margin-bottom: 7px;
+    }
+
+    .categoryTextbox {
+        margin-left: 0px;
+    }
+
+    .dvLeft {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .dvRight {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .rs-div1 {
+        width: 50%;
+    }
+
+    .rs-div2 {
+        width: 50%;
+        float: right;
+    }
+
+    .form-check label {
+        white-space: nowrap;
+        margin-right: 15px;
+    }
+
+    .d-flex {
+        display: flex !important;
+    }
+
+    .rs-margin {
+        margin-top: 15px;
+    } 
+}
+
+h6.headerColor {
+    color: grey !important;
+}
+
+.modal-overlay {
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    display: block;
+    background: white;
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.dvLeft {
+    float: left;
+    width: 35%;
+}
+
+.dvRight {
+    float: right;
+    width: 65%;
+}
+
+.ws-feedback {
+    white-space: normal;
+}
+
+.answers {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.star {
+    color: #ff9933;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.slider-parent {
+    position: relative;
+}
+
+.buble {
+    position: absolute;
+}

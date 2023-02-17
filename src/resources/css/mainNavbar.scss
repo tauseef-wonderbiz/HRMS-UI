@@ -1,0 +1,65 @@
+
+.bg-se-brand {
+    background-color: #327cc5;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(182, 182, 245, 0) 0.01%, #5CB6D2 92.71%, #FFFFFF 94.79%);
+box-shadow: 0px 0px 4px 1px #B6B6F5;
+position: fixed;
+
+//     background: linear-gradient(180deg, #FFFFFF 0%, rgba(182, 182, 245, 0) 0.01%, #5CB6D2 92.71%, #FFFFFF 20%);
+// box-shadow: 0px 0px 1px 1px #B6B6F5;
+// filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.logoutButton {
+    width: 24px;
+    height: 24px;
+}
+
+.userNameMenu {
+    color: white;
+    margin-right: 10px;
+}
+
+.side-menu1{
+    // position: relative;
+    // background: red;
+    // height: 1000px;
+    height: 95%;
+    position: fixed;
+background: #163547;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.wbLogo {
+    width: 27%;
+    border-radius:100%
+}
+
+
+.label1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin : auto
+    //  margin-left: 11rem;
+    //  padding: 4rem;
+    // margin: auto;
+
+}
+
+label{
+    padding: 5px;
+}

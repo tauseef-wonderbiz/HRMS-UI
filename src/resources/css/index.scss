@@ -1,0 +1,44 @@
+// Import CoreUI for React components library
+@import "@coreui/coreui/scss/coreui";
+@import "@coreui/coreui/scss/navbar";
+
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+      url("../fonts/Nunito-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-dark {
+    --cui-navbar-color: rgba(255, 255, 255, 0.85);
+    --cui-navbar-hover-color: rgba(16, 137, 34, 0.95);
+    --cui-navbar-disabled-color: rgba(255, 255, 255, 0.38);
+    --cui-navbar-active-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-brand-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-brand-hover-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+
+    // --cui-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.6%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+}
+
+.navbar-light {
+    --cui-navbar-color: rgba(255, 255, 255, 0.85);
+    --cui-navbar-hover-color: rgba(16, 137, 34, 0.95);
+    --cui-navbar-disabled-color: rgba(255, 255, 255, 0.38);
+    --cui-navbar-active-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-brand-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-brand-hover-color: rgba(255, 255, 255, 0.87);
+    --cui-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+
+    // --cui-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.6%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+}
+
+$theme-colors: (
+    "background": #f5f6f5,
+    "dark": #4b4b4b,
+    "blue": #1e90ff,
+);
